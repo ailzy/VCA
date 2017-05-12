@@ -1,0 +1,18 @@
+Fri, 12 May 2017 11:56:36 config.py[line:69] INFO Init logging complete
+Fri, 12 May 2017 11:56:36 config.py[line:70] INFO Config mode.log_file is : asyncool.log
+Fri, 12 May 2017 11:56:36 config.py[line:72] INFO Config mode.log_mode is : INFO
+Fri, 12 May 2017 11:56:36 config.py[line:87] INFO Config nsq_ip is : 192.168.0.100
+Fri, 12 May 2017 11:56:36 config.py[line:88] INFO Config nsq_port is : 4150
+Fri, 12 May 2017 11:56:36 config.py[line:89] INFO Config nsq_topic is : asyncool
+Fri, 12 May 2017 11:56:36 config.py[line:92] INFO Config nsq_limit is : 10000
+Fri, 12 May 2017 11:56:36 config.py[line:95] INFO Config nsq_name is : taskid
+Fri, 12 May 2017 11:56:36 config.py[line:98] INFO Config cpoints_Path is : cpoints.ini
+Fri, 12 May 2017 11:56:36 config.py[line:116] INFO Config cpoints is : {('exp.py', 7): [(True, 'cnt', 1), (True, 'i', 2)], ('exp.py', 6): [(True, 'sum', 0)]}
+Fri, 12 May 2017 11:56:36 config.py[line:119] INFO Config shake_msg is : <--Hello World Nothing-->
+Fri, 12 May 2017 11:56:36 config.py[line:122] INFO Config shake_topic is : comp_target
+Fri, 12 May 2017 11:56:36 config.py[line:128] INFO Config nsq_mode is : True
+Fri, 12 May 2017 11:56:36 config.py[line:136] INFO Config file_mode is : True
+Fri, 12 May 2017 11:56:36 config.py[line:137] INFO Config file_name is : asyncool.dat
+Fri, 12 May 2017 11:56:36 config.py[line:140] INFO Config wrong_limit is : 10
+Fri, 12 May 2017 11:56:36 config.py[line:143] INFO Config process_num is : 1
+Fri, 12 May 2017 11:56:36 config.py[line:146] INFO Config process_qsize is : 100000
