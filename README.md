@@ -40,7 +40,7 @@ DEBUG (Qdb and Varcol)
     Variable-Collection collects the value of an given expression at each time the given
     line executed. Now, we use our example directory to make things clear.
     It includes three files: cpoints.ini, demo.py user.py. Move all of them to your working
-    directory. It's noticed that, 'demo.py' is a typical mustang script with 'user.py' as
+    directory. It's noticed that, 'demo.py' is a typical script with 'user.py' as
     it's model class.
 
     The aims now are collecting variables in user.py. For example, we aim to collect an
@@ -48,9 +48,9 @@ DEBUG (Qdb and Varcol)
     file cpoints.ini need to add a line as following.
 
         f_name	no	cond_expr	var_expr	primary_key
-        user.py	19	True	self.cnt1	mustang.get_current_time()
+        user.py	19	True	self.cnt1	_.get_current_time()
 
-    While the option primary_key is frequently set to be "mustang.get_current_time()",
+    While the option primary_key is frequently set to be "_.get_current_time()",
     for the fact that, we need only one value of a variable at each timestamp. Variable-
     Collection will substitute the value of a new value if both have the same primary-key.
 
